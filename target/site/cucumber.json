@@ -1,0 +1,129 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 18,
+        "name": "Search for a category",
+        "description": "",
+        "id": "categories.feature;search-for-a-category;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 203776943,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am an existing user",
+            "match": {
+              "location": "CategoriesSteps.i_am_an_existing_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2551542843,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I call the category service with categoryId \"6327\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6327",
+                  "offset": 45
+                }
+              ],
+              "location": "CategoriesSteps.i_call_the_category_service_with_categoryId(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 406530941,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I can see the name \"Carbon credits\" of the category",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Carbon credits",
+                  "offset": 20
+                }
+              ],
+              "location": "CategoriesSteps.i_can_see_the_name_of_the_category(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 34144647,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I can see the canRelist  \"true\" status of the product",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 26
+                }
+              ],
+              "location": "CategoriesSteps.i_can_see_the_canRelist_status_of_the_product(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26888237,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I can see a promotion element with promotionName \"Gallery\" and Description \"2x larger image\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gallery",
+                  "offset": 50
+                },
+                {
+                  "val": "2x larger image",
+                  "offset": 76
+                }
+              ],
+              "location": "CategoriesSteps.i_can_see_a_promotion_element_with_promotionName_and_Description(String,String)"
+            },
+            "matchedColumns": [
+              3,
+              4
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@categories"
+          }
+        ]
+      }
+    ],
+    "name": "Categories.feature",
+    "description": "\r\nAs a company user \r\nI want to be able to search for product categories\r\nSo that I can see the details of various products",
+    "id": "categories.feature",
+    "keyword": "Feature",
+    "uri": "features/categories.feature"
+  }
+]
