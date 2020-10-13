@@ -10,7 +10,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <cucumber-jvm.version>1.2.5</cucumber-jvm.version>
     <selenium.version>2.53.0</selenium.version>
-    <junit.version>4.11</junit.version>
+    <junit.version>4.13.1</junit.version>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
     <maven.compiler.plugin>3.3</maven.compiler.plugin>
